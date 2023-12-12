@@ -5,7 +5,7 @@
 # creates REDIS db using docker
 # Arguments:
 #   None
-#######################################
+########################################
 backend_redis_create() {
   print_banner
   printf "${WHITE} 💻 Criando Redis & Banco Postgres...${GRAY_LIGHT}"
